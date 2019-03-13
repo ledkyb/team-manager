@@ -1,0 +1,18 @@
+@import '../../../index.scss';
+
+.black-border-button-container button{
+	border: $black solid 1px;
+	color: $black;
+	background: none;
+	width: 225px;
+	height: 45px;
+	border-radius: 5px;
+	font-weight: bold;
+	outline: none;
+
+	&:hover{
+		background-color: $orange;
+		border: white solid 1px;
+		color: white;
+	}
+}
